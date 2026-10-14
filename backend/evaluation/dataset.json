@@ -1,0 +1,259 @@
+{
+  "note": "Synthetic, hand-labelled examples written for this project. Gold lists contain only skills that exist in app/data/skills.json AND are named (or aliased) in the text; implied skills are not labelled. The set was also used while developing the matcher, so scores are optimistic. Replace or extend with anonymised real resumes for an honest estimate.",
+  "resumes": [
+    {
+      "id": "r01",
+      "text": "Backend developer. Built REST APIs with FastAPI and PostgreSQL. Deployed with Docker on AWS. Wrote unit tests using Pytest.",
+      "skills": [
+        "REST APIs",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker",
+        "AWS",
+        "Pytest",
+        "Unit Testing"
+      ]
+    },
+    {
+      "id": "r02",
+      "text": "Skills: Python, JavaScript, TypeScript, React, Node.js, MongoDB, Git, Jira",
+      "skills": [
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Git",
+        "Jira"
+      ]
+    },
+    {
+      "id": "r03",
+      "text": "Systems programmer: C++ and Rust for low-latency services, some Go tooling. Languages: C++, Rust, Go, Bash.",
+      "skills": [
+        "C++",
+        "Rust",
+        "Go",
+        "Bash"
+      ]
+    },
+    {
+      "id": "r04",
+      "text": "Data scientist using pandas, NumPy, scikit-learn and PyTorch for deep learning and NLP. Dashboards in Tableau and Power BI.",
+      "skills": [
+        "Pandas",
+        "NumPy",
+        "scikit-learn",
+        "PyTorch",
+        "Deep Learning",
+        "NLP",
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "id": "r05",
+      "text": "Built a GenAI assistant with LangChain, RAG and a vector database (FAISS). Prompted large language models via the OpenAI API.",
+      "skills": [
+        "Generative AI",
+        "LangChain",
+        "RAG",
+        "Vector Databases",
+        "LLMs"
+      ]
+    },
+    {
+      "id": "r06",
+      "text": "DevOps engineer. Kubernetes (k8s), Terraform, Ansible and Jenkins. CI/CD pipelines, Prometheus and Grafana monitoring on Linux.",
+      "skills": [
+        "Kubernetes",
+        "Terraform",
+        "Ansible",
+        "Jenkins",
+        "CI/CD",
+        "Prometheus",
+        "Grafana",
+        "Linux"
+      ]
+    },
+    {
+      "id": "r07",
+      "text": "Full-stack: Vue.js front end, Django REST framework API, Postgres database, Redis cache, Celery workers, Nginx reverse proxy.",
+      "skills": [
+        "Vue",
+        "Django",
+        "PostgreSQL",
+        "Redis",
+        "Celery",
+        "Nginx"
+      ]
+    },
+    {
+      "id": "r08",
+      "text": "Java developer: Spring Boot microservices, Kafka messaging, MySQL, JUnit tests. Also wrote some JavaScript for admin pages.",
+      "skills": [
+        "Java",
+        "Spring Boot",
+        "Microservices",
+        "Kafka",
+        "MySQL",
+        "JUnit",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "r09",
+      "text": "Mobile developer shipping iOS apps in Swift and Android apps in Kotlin. Used Figma for design handoff and Firebase for push notifications.",
+      "skills": [
+        "Swift",
+        "Kotlin",
+        "Figma"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "C# and .NET developer building ASP.NET Core services on Azure with SQL Server. Practised Agile and Scrum, TDD and design patterns.",
+      "skills": [
+        "C#",
+        ".NET",
+        "ASP.NET",
+        "Azure",
+        "SQL Server",
+        "Agile",
+        "Scrum",
+        "Test-Driven Development",
+        "Design Patterns"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "Analyst: advanced Excel, SQL queries, Python scripts for ETL, Airflow schedules and BigQuery reporting.",
+      "skills": [
+        "Excel",
+        "SQL",
+        "Python",
+        "ETL",
+        "Airflow",
+        "BigQuery"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "Strong communicator who can react quickly to production incidents and express complex ideas clearly. Experienced with Python and Git.",
+      "skills": [
+        "Python",
+        "Git"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "Trained ML models and shipped them behind an API. Familiar with AI/ML tooling and JS dashboards.",
+      "skills": [
+        "Machine Learning",
+        "JavaScript"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "I swiftly adapted to new teams and love to go above and beyond. Worked with Node and Mongo.",
+      "skills": [
+        "MongoDB"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "Security-minded engineer: OAuth2 and JWT auth, OWASP Top 10 reviews, GitHub Actions pipelines, Docker Compose for local environments.",
+      "skills": [
+        "OAuth",
+        "JWT",
+        "OWASP",
+        "GitHub Actions",
+        "Docker"
+      ]
+    }
+  ],
+  "job_descriptions": [
+    {
+      "id": "j01",
+      "text": "Backend Engineer\nRequirements:\n- Python and FastAPI\n- PostgreSQL\n- Docker\nNice to have:\n- Kafka\n- Terraform\n",
+      "required": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "preferred": [
+        "Kafka",
+        "Terraform"
+      ]
+    },
+    {
+      "id": "j02",
+      "text": "Frontend Developer\nYou will build interfaces with React and TypeScript.\nExperience with GraphQL is a plus.\nBonus: Cypress, Jest",
+      "required": [
+        "React",
+        "TypeScript"
+      ],
+      "preferred": [
+        "GraphQL",
+        "Cypress",
+        "Jest"
+      ]
+    },
+    {
+      "id": "j03",
+      "text": "ML Engineer\nMust have:\n* Python, PyTorch\n* Strong machine learning fundamentals\nPreferred qualifications:\n* Experience with Kubernetes and AWS\n* Hugging Face",
+      "required": [
+        "Python",
+        "PyTorch",
+        "Machine Learning"
+      ],
+      "preferred": [
+        "Kubernetes",
+        "AWS",
+        "Hugging Face"
+      ]
+    },
+    {
+      "id": "j04",
+      "text": "Data Analyst\nWe are looking for someone with SQL and Tableau experience. Knowledge of Python is desirable.",
+      "required": [
+        "SQL",
+        "Tableau"
+      ],
+      "preferred": [
+        "Python"
+      ]
+    },
+    {
+      "id": "j05",
+      "text": "DevOps Engineer\nRESPONSIBILITIES\nRun Kubernetes clusters and CI/CD on Jenkins.\nQUALIFICATIONS\nLinux, Terraform, Prometheus.\nNICE TO HAVE\nAnsible",
+      "required": [
+        "Kubernetes",
+        "CI/CD",
+        "Jenkins",
+        "Linux",
+        "Terraform",
+        "Prometheus"
+      ],
+      "preferred": [
+        "Ansible"
+      ]
+    },
+    {
+      "id": "j06",
+      "text": "Java Developer\nRequirements:\nJava, Spring Boot, MySQL\nNice to have:\nDocker\nKubernetes\nAWS",
+      "required": [
+        "Java",
+        "Spring Boot",
+        "MySQL"
+      ],
+      "preferred": [
+        "Docker",
+        "Kubernetes",
+        "AWS"
+      ]
+    }
+  ]
+}
