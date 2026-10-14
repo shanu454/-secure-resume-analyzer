@@ -1,10 +1,29 @@
+[project]
+name = "secure-resume-analyzer"
+version = "1.0.0"
+description = "Secure Document and Resume Analysis API"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "uvicorn[standard]>=0.30,<1.0",
+    "SQLAlchemy>=2.0,<2.1",
+    "psycopg2-binary>=2.9,<3.0",
+    "pydantic[email]>=2.7,<3.0",
+    "pydantic-settings>=2.3,<3.0",
+    "python-multipart>=0.0.9",
+    "PyJWT>=2.8,<3.0",
+    "argon2-cffi>=23.1",
+    "pypdf>=4.2",
+    "python-docx>=1.1",
+]
+
 [tool.ruff]
 line-length = 110
 target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "B"]
-ignore = ["B008"]  # FastAPI uses Depends() in argument defaults by design
+ignore = ["B008"]
 
 [tool.ruff.lint.per-file-ignores]
 "tests/*" = ["E501"]
