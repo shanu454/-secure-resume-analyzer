@@ -1,5 +1,5 @@
 // Thin wrapper around fetch for the FastAPI backend (proxied at /api).
-const BASE = '/api'
+const BASE = import.meta.env.VITE_API_URL || '/api'
 const TOKEN_KEY = 'resume_analyzer_token'
 
 // sessionStorage is cleared when the tab closes. It is still readable by any
@@ -44,7 +44,11 @@ async function request(path, { method = 'GET', json, form, auth = true } = {}) {
 
   let res
   try {
-    res = await fetch(BASE + path, { method, headers, body })
+    const url = BASE === '/api'
+    ? BASE + path
+    : BASE.replace(/\/$/, '') + path
+
+    res = await fetch(url, { method, headers, body })
   } catch {
     throw new ApiError(0, 'Cannot reach the server. Check that the backend is running.')
   }
