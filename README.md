@@ -5,6 +5,30 @@ Secure Document and Resume Analysis API
   <br>
   Upload a resume, analyze job requirements, identify skill gaps, and explore actionable insights through a modern web interface.
 </p>
+
+---
+
+## 🚀 Live Demo
+
+<p align="center">
+  <a href="https://shanu-resume-analyzer-20261015-x7k9.onrender.com">
+    <img src="https://img.shields.io/badge/Live%20Demo-Launch%20App-6C5CE7?style=for-the-badge" alt="Launch Live Demo">
+  </a>
+</p>
+
+**🌐 Application:** https://shanu-resume-analyzer-20261015-x7k9.onrender.com
+
+Try the application to:
+- Upload your resume in PDF, DOCX, or TXT format.
+- Compare your skills against a job description.
+- Identify matching skills, missing skills, and relevant keywords.
+- Generate a structured resume analysis report.
+- Access your previous analyses.
+
+> **Note:** The application is hosted on Render. The first request after inactivity may take some time while the backend starts.
+
+---
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.12-blue?logo=python" alt="Python">
   <img src="https://img.shields.io/badge/FastAPI-Backend-009688?logo=fastapi" alt="FastAPI">
@@ -262,8 +286,8 @@ This setup is intended to run the application with PostgreSQL and a containerize
 
 1. Clone the repository
 
-git clone https://github.com/shanu454/resume-analyzer.git
-cd resume-analyzer
+git clone https://github.com/shanu454/-secure-resume-analyzer.git
+cd -secure-resume-analyzer
 
 Replace the repository URL if your GitHub repository uses a different name.
 
@@ -302,8 +326,8 @@ This setup uses SQLite by default and does not require Docker or a separate Post
 
 1. Clone the Repository
 
-git clone https://github.com/shanu454/resume-analyzer.git
-cd resume-analyzer
+git clone https://github.com/shanu454/-secure-resume-analyzer.git
+cd -secure-resume-analyzer
 
 If you already have the project, open its root directory in VS Code.
 
