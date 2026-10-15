@@ -210,9 +210,12 @@ How It Works
 
 ---
 
-Project Structure
+---
 
-resume-analyzer/
+## 📁 Project Structure
+
+```text
+secure-resume-analyzer/
 │
 ├── backend/
 │   ├── app/
@@ -242,10 +245,22 @@ resume-analyzer/
 ├── frontend/
 │   ├── public/
 │   ├── src/
+│   │   ├── components/
+│   │   │   └── CoverageStrip.jsx
+│   │   ├── pages/
+│   │   │   ├── AnalyzePage.jsx
+│   │   │   ├── AuthPage.jsx
+│   │   │   ├── HistoryPage.jsx
+│   │   │   └── ReportPage.jsx
+│   │   ├── App.jsx
+│   │   ├── api.js
+│   │   ├── main.jsx
+│   │   └── styles.css
 │   ├── index.html
 │   ├── package.json
 │   ├── package-lock.json
 │   ├── vite.config.js
+│   ├── nginx.conf
 │   └── Dockerfile
 │
 ├── docs/
@@ -260,11 +275,13 @@ resume-analyzer/
 │
 ├── .github/
 │   └── workflows/
+│
+├── .vscode/
 ├── .env.example
-├── docker-compose.yml
 ├── .gitignore
+├── docker-compose.yml
 └── README.md
-
+```
 ---
 
 Getting Started
